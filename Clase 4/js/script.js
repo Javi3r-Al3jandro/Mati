@@ -167,24 +167,84 @@ if (precio < 3000){
 //----------------------------------------------------------------------------------------------------------
 
 //4)
-/* Solicitar al usuario 3 números y verificar cual es el mayor de los 3. Nos muestra el mayor por consola 
-Verificamos si el número es positivo, negativo o cero. Nos dirá por consola a que categoría pertenece.
-verificamos si la edad esta en el rango de 18 a 65 años. Si se cumple la condición nos dirá por consola 
-que está en edad laborable */
+/* Solicitar al usuario 3 números y verificar cual es el mayor de los 3. Nos muestra el mayor por consola */
 
-let n1 = prompt("Ingrese el primer nùmero")
+/* let n1 = prompt("Ingrese el primer nùmero")
 let n2 = prompt("Ingrese el segundo nùmero")
 let n3 = prompt("Ingrese el tercer nùmero")
 
 if (n1>n2 && n1>n3){
-    console.log(n1)
-}else if(n2>n1 && n2>n3){
-    console.log(n2)
-}else if(n3>n1 && n3>n2){
-    console.log(n3)
+    console.log("El mayor es "+n1)
 }
-
-
-
+else if(n2>n1 && n2>n3){
+    console.log("El mayor es "+n2)
+}
+else if(n3>n1 && n3>n2){
+    console.log("El mayor es "+n3)
+}
+else if(n1 == n2 && n1 == n3){
+    console.log("Todos son iguales")
+}
+else if(n1==n2){
+    console.log(n1+" y "+n2 +" son iguales")
+}
+else if(n2==n3){
+    console.log(n2+" y "+n3 +" son iguales")
+}
+else if(n1==n3){
+    console.log(n1+" y "+n3 +" son iguales")
+} */
 
 //----------------------------------------------------------------------------------------------------------
+
+//5)
+/*  Verificamos si el número es positivo, negativo o cero. Nos dirá por consola a que categoría pertenece.*/
+
+/* let n = prompt("ingrese un número")
+
+if(n>0){
+    console.log("El número es positivo")
+}
+else if(n<0){
+    console.log("El número es negativo")
+}
+else if(n==0){
+    console.log("El número es cero")
+}
+else{
+    console.log("ERROR: El número ingresado no es válido")
+}
+ */
+//----------------------------------------------------------------------------------------------------------
+
+//6)
+/* verificamos si la edad esta en el rango de 18 a 65 años. Si se cumple la condición nos dirá por consola 
+que está en edad laborable */
+
+//REALIZADO EN EL EJERCICIO 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
