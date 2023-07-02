@@ -207,11 +207,11 @@ console.log(msj[0]) */
 
 
 //CAMBIAR UNA SOLA LETRA DE UNA FRASE A MAYUSCULA
-let msj = "hola mundo"
+/* let msj = "hola mundo"
 console.log(msj[0])
 let resultado = msj[0].toUpperCase()
 for(let i = 1; i < msj.length; i = i + 1){
     resultado = resultado + msj[i]
 }
-console.log(resultado)
+console.log(resultado) */
 //con i < msj.length decimos que el iterador abarca el largo del texto/mensaje
