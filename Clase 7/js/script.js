@@ -266,16 +266,15 @@ Definí una función filtrarPorLongitud que tome por parámetro un número longi
 //filtrarPorLongitudMayorA(4,['dia','remolacha','azul','sorpresa','te','verde',])
 //['remolacha', 'sorpresa', 'verde']
 
-//FALTA TERMINAR. NO ESTA BIEN 4/7/23
-/* const filtrarPorLongitud = (num, arrayPalabras) => {
+const filtrarPorLongitud = (num, arrayPalabras) => {
     return arrayPalabras.map((arrayPalabrasMap) => { 
         if(arrayPalabrasMap.length > num){
-            return arrayPalabrasMap
+            return arrayPalabrasMap 
         }
     })
 }
-const arrayPalabras = ["hola", "sol", "dia", "matecocido"]
-conasole.log(filtrarPorLongitud(1, arrayPalabras)) */
+
+console.log(filtrarPorLongitud(4, ["hola", "sol", "dia", "matecocido"]))
 
 
 
