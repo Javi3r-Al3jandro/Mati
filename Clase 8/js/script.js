@@ -199,7 +199,7 @@ const result = mensajesRedSocial.filter ((mensaje) => mensaje.toUpperCase().incl
 
 
 
-const gifts = ['cat', 'game', 'socks']
+/* const gifts = ['cat', 'game', 'socks']
 
 const wrapping = (gifts) => {
     return gifts.map((gift) => {
@@ -208,6 +208,7 @@ const wrapping = (gifts) => {
             )
     })
 }
+ */
 
 //está bien resuelto
 
@@ -215,7 +216,7 @@ const wrapping = (gifts) => {
 
 //con esta forma se ve mejor
 
-const wrapped = wrapping(gifts)
-wrapped.forEach(wrappedGift => console.log(wrappedGift))
+/* const wrapped = wrapping(gifts)
+wrapped.forEach(wrappedGift => console.log(wrappedGift)) */
 
 
