@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1> Clase eventos JS</h1>
+    <div>
+        <input type="text" id="search" placeholder="Escriba algo para buscar">
+    </div>
+    <div class="posts">
+    </div>
+
+
+<!-- 1- FORMA DE HACER EL EVENTO onclick desde HTML(no recomendada.ver JS el porque)-->
+<button id="btn" onclick="saludar">Click</button>
+
+<!-- FORMA DE HACERLO POR JS LLAMANDO AL BUTTON Y EJECUTANDO UNA FUNCION (TAMPOCO ES MUY UTILIZADO) -->
+    <button id="btn">Click</button>
+    
+    
+
+    <!-- EJERCICIOS DE EVENTOS -->
+
+    <!-- 1 -->
+<hr>
+    <h1>Ejercicio de eventos en js: "CONTADOR"</h1>
+    <br>
+    <br>
+    
+    <div class="contador">
+        <button id="btn-menos">-</button>
+        <span id="contador">0</span>
+        <button id="btn-mas">+</button>
+    </div>
+    <br>
+    <h2><u>Requisitos</u></h2>
+    <ul>
+        <li>
+            <p>El button "+" debera incrementar el contador en 1 cuando se le de <i>click</i></p>
+            <p>El button "-" debera decrementar el contador en 1 cuando se le de <i>click</i></p>
+        </li>
+    </ul>
+
+    <!-- 2 -->
+    <hr>
+    <h1>Ejercicio de eventos en js: "CONTADOR CON LIMITE"</h1>
+    <br>
+    <br>
+    
+    <div class="contador">
+        <button id="btn-menos2">-</button>
+        <span id="contador2">1</span>
+        <button id="btn-mas2">+</button>
+    </div>
+    <br>
+    <h2><u>Requisitos</u></h2>
+    <ul>
+        <li>
+            El button "+" debera incrementar el contador en 1 cuando se le de <i>click</i>
+            no podrá incrementar mas de 10
+        </li>
+        <li>
+            El button "-" debera decrementar el contador en 1 cuando se le de <i>click</i>
+            no podrá decrementar menos de 1
+        </li>
+    </ul>
+
+<!-- 3 -->
+    <hr>
+    <h1>Ejercicio de eventos en js: "CONTADOR CON LIMITE Y CONFIRMACION"</h1>
+    <br>
+    <br>
+    
+    <div class="contador">
+        <button id="btn-menos3">-</button>
+        <span id="contador3">1</span>
+        <button id="btn-mas3">+</button>
+        <button id="confirmar">confirmar</button>
+        <div id="confirmacion">
+        </div>
+    </div>
+    <br>
+    <h2><u>Requisitos</u></h2>
+    <ul>
+        <li>
+            El button "+" debera incrementar el contador en 1 cuando se le de <i>click</i>
+            no podrá incrementar mas de 10
+        </li>
+        <li>
+            El button "-" debera decrementar el contador en 1 cuando se le de <i>click</i>
+            no podrá decrementar menos de 1
+        </li>
+        <li>
+            El button "confirmar" debera hacer que se muestre un span en el html diciendo: 
+            el numero confirmado es "numero confirmado"
+        </li>
+    </ul>
+
+    <script src="./js/script.js"></script>
+</body>
+</html> 
+
+<!-- 4 -->
+<!-- En teoría asi funciona pero no se por que no lo hace -->
+<hr>
+    <h1>Ejercicio de eventos en js: "MENU DESPLEGABLE"</h1>
+    <br>
+    <br>
+    
+    <nav>
+        <button id="Menu">...</button>
+        <div id="navBar" class="oculto">
+            <a href="">link 1</a>
+            <a href="">link 2</a>
+            <a href="">link 3</a>
+            <a href="">link 4</a>
+        </div>
+    </nav>
+
+    <br>
+    <h2><u>Requisitos</u></h2>
+    <ul>
+        <li>
+            El button "..." debera ocultar o mostrar los links al darle click
+        </li>
+    </ul>

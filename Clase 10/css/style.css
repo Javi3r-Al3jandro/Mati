@@ -1,0 +1,25 @@
+*{
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+#btn:focus{
+    border-color: blue;
+}
+.contador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+nav{
+    display: flex;
+}
+
+.oculto{
+    display: none;
+}
+
